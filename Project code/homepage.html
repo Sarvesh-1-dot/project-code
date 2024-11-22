@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="./style.css"> 
+     <script src="./script.js" defer></script>
+     
+    <title>Home page</title>
+    <style>
+        .bimg{
+
+            width: 100%;
+            height: 100%;
+        }
+        .title{
+             margin-top: 30px;
+             font-size: 35px;
+             font-family: calibri;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Logo -->
+        <a href="#" class="logo">E-commerce</a>
+
+        <!-- Links -->
+        <div class="nav-links">
+            <a href="./homepage.html">Home</a>
+            <a href="./product.html">Products</a>
+            <a href="./About us.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="btn"><i class="fa fa-sign-in" style="font-size:20px"></i> <a href="./Login.html ">Login</a></button>
+            <button><i class="fa fa-user-plus" style="font-size:20px"></i><a href="./Register.html">Register</a></button>
+            <button><i class="fa fa-cart-plus" style="font-size:20px"></i><a href="./cart.html">Cart(0)</a></button>
+    
+        </div>
+    </nav>
+
+    <img class="bimg" src="./images/bannerimg.jpg" alt=" ">
+    <center class="title">Latest Products</center><br><br>
+    <hr>
+
+
+    <div class="container">
+
+        <div class="filter_buttons">
+           <button class="active" data-name="all">All</button>
+           <button data-name="Men's Clothing">Men's Clothing</button> 
+           <button data-name="Women's Clothing">Women's Clothing</button> 
+           <button data-name="Jewellery">Jewellery</button>
+          <button data-name="Electronics">Electronics</button>
+        </div>
+
+        <!-- image cards -->
+         <div class="filterable_cards">
+            <div class="card" data-name="Men's Clothing">
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title"><center>Fjallreven- ....</center></h6>
+                    <p class="card_text">Your  perfect pack for everyday
+                        use and walks in the forest Stasj your laptop(up to 15in...
+                    </p>
+                    <br>
+                    <hr>
+                     <center>  <p>$109.5<p></center>
+                    <hr>
+                    <div class="detailscart">
+                    <button class="details" ><a href="#">Details</a></button>
+                    <button   id="btn"  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="card" data-name="Men's Clothing">
+                <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title"><center>Mens Casual .... </center></h6>
+                    <p class="card_text">Slim-fitting style,contrst raglan long sleeve,three-buttons henley placket,lightg weight...</p>
+                    <br>
+                    <hr>
+                     <center>  <p>$22.3<p></center>
+                    <hr>
+                    <div class="detailscart">
+                    <button class="details" ><a href="#">Details</a></button>
+                    <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                </div>
+
+                </div>
+            </div>
+
+            <div class="card" data-name="Men's Clothing">
+                <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Mens Cotton</h6>
+                    <p class="card_text">great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as wor..</p>
+                    <br>
+                    <hr>
+                     <center>  <p>$55.99<p></center>
+                    <hr>
+                    <div class="detailscart">
+                    <button class="details" ><a href="#">Details</a></button>
+                    <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                </div>
+                </div>
+            </div>
+
+
+
+            <div class="card" data-name="Men's Clothing">
+                <img src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="">
+                <div class="card_body">
+                    <h6 class="card_title">Mens Casual ...</h6>
+                    <p class="card_text">The color could be slightly different between on the screen and in practice. / Please note ...</p>
+                    <br>
+                    <hr>
+                     <center>  <p>$15.99<p></center>
+                    <hr>
+                    <div class="detailscart">
+                      <button class="details" ><a href="#">Details</a></button>
+                      <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="card" data-name="Jewellery">
+                <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg" alt="">
+                <div class="card_body">
+                     <h6 class="card_title">John Hardy W...</h6>
+                     <p class="card_text">From our Legends Collection, the Naga was inspired by the mythical water dragon that pro..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$695<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+          
+            <div class="card" data-name="Jewellery">
+                <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg" alt="">
+                <div class="card_body">
+                     <h6 class="card_title">Solid Gold P...</h6>
+                     <p class="card_text">Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold b..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$168<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+                  
+            <div class="card" data-name="Jewellery">
+                <img src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" alt="">
+                <div class="card_body">
+                     <h6 class="card_title">White Gold P..</h6>
+                     <p class="card_text">Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$9.99<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Jewellery">
+                <img src="https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg" alt="">
+                <div class="card_body">
+                     <h6 class="card_title">Pierced Owl</h6>
+                     <p class="card_text">Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$10.99<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div>  
+
+              
+            <div class="card" data-name="Electronics">
+                <img src="https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">WD 2TB Eleme...</h6>
+                     <p class="card_text">USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$64<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details"><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+
+            <div class="card" data-name="Electronics">
+                <img src=" https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">SanDisk SSD </h6>
+                     <p class="card_text">Easy upgrade for faster boot up, shutdown, application load and response (As compared to...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$35<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Electronics">
+                <img src=" https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Silicon powe..</h6>
+                     <p class="card_text">3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$109<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Electronics">
+                <img src=" https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">WD 4TB Gamin...</h6>
+                     <p class="card_text">Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$114<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+           
+            <div class="card" data-name="Electronics">
+                <img src=" https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Acer SB220Q </h6>
+                     <p class="card_text">"21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$599<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Electronics">
+                <img src=" https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Samsung 49-...</h6>
+                     <p class="card_text">49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$999.9<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">BIYLACLESEN</h6>
+                     <p class="card_text">Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100%...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$56.99<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Lock and Lov...</h6>
+                     <p class="card_text">100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$29.95<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+            
+            
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Rain Jacket..</h6>
+                     <p class="card_text">Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstri...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$39.99<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">MBJ Women's...</h6>
+                     <p class="card_text">95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric..</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$9.85<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+            
+
+            
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">Opna Women's...</h6>
+                     <p class="card_text">100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$35<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="card" data-name="Women's Clothing">
+                <img src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg" alt=""> 
+                <div class="card_body">
+                     <h6 class="card_title">DANVOUY Wome...</h6>
+                     <p class="card_text">5%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The...</p>
+                     <br>
+                     <hr>
+                    <center>  <p>$35<p></center>
+                     <hr>
+                    <div class="detailscart">
+                       <button class="details" ><a href="#">Details</a></button>
+                       <button  class="Add"> <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+            </div> 
+    </div>
+    </div>
+
+    <footer>
+        <center> <span style="font-family:calibri;font-size:20px; font-weight:800px;">Made with <i class="fa fa-heart" style="font-size:18px;color:red "></i> by <u style="text-decoration:underline ;">Sarvesh</u>
+        </span></center> 
+         </footer>   
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+  
+
+
+
